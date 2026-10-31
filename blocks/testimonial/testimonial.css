@@ -1,0 +1,26 @@
+.testimonial .testimonial-item {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 16px;
+  border-left: 4px solid #1473e6;
+  background-color: #f5f5f5;
+}
+
+.testimonial .testimonial-photo img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial blockquote {
+  margin: 0 0 8px;
+  font-style: italic;
+}
+
+.testimonial cite {
+  font-weight: bold;
+  font-style: normal;
+}
