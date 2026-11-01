@@ -10,6 +10,9 @@
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }
 
 .cards .cards-card-body {

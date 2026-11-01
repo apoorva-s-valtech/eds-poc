@@ -1,0 +1,23 @@
+.tabs .tabs-list {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid #dadada;
+}
+
+.tabs .tabs-tab {
+  padding: 8px 16px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.tabs .tabs-tab[aria-selected='true'] {
+  border-bottom-color: #1473e6;
+  font-weight: bold;
+}
+
+.tabs .tabs-panel {
+  padding: 16px 0;
+}
